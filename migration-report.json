@@ -1,0 +1,39 @@
+{
+  "sqlite_path": "dukaan_saathi.sqlite3",
+  "mongo_database": "dukaan_saathi",
+  "dry_run": false,
+  "collections": {
+    "shops": {
+      "source_records": 1,
+      "migrated_records": 1,
+      "skipped_records": 0,
+      "failed_records": 0,
+      "matching_records": 1,
+      "target_records_after_run": 1
+    },
+    "sessions": {
+      "source_records": 6,
+      "migrated_records": 6,
+      "skipped_records": 0,
+      "failed_records": 0,
+      "matching_records": 6,
+      "target_records_after_run": 6
+    },
+    "udhaar": {
+      "source_records": 1,
+      "migrated_records": 1,
+      "skipped_records": 0,
+      "failed_records": 0,
+      "matching_records": 1,
+      "target_records_after_run": 1
+    }
+  },
+  "skipped_records": 0,
+  "failed_records": 0,
+  "verification": {
+    "passed": true,
+    "source_records_checked": 8,
+    "matching_records": 8,
+    "issues": []
+  }
+}
