@@ -25,6 +25,7 @@ The Sarvam calling number supplied for this deployment is **+91 7965481872**. Ca
 After verification, try this conversation:
 
 1. Say: “I want to add udhaar.”
+It will ask for PIN: answer 1234
 2. Give the customer's name, phone number, address, and the amount owed. The agent should ask for missing details one at a time.
 3. Listen while the agent reads all four fields back. Confirm only if they are correct.
 4. The agent calls the backend after confirmation and reports the backend result.
